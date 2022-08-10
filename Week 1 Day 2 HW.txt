@@ -1,0 +1,11 @@
+let firstAverage = (4 + 10 + 22 + -30 + 55) / 5
+
+console.log(firstAverage)
+
+let secondAverage = (68 + 7 + -22 + 9 + 100) / 5
+
+console.log(secondAverage)
+
+let bothAverages = (firstAverage + secondAverage) / 2
+
+console.log(bothAverages)

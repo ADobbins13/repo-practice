@@ -1,0 +1,431 @@
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev
+$ mkdir galaxy-far-far-away
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev
+$ cd galaxy-far-far-away/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ touch commands.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mkdir death_star
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd death_star/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  princess_leia.txt  storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mkdir tatooine
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd tatooine/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ touch luke.txt ben_kenobi.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ mkdir millenium_falcon
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt  millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ cd millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine/millenium_falcon
+$ touch han_solo.txt chewbaca.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine/millenium_falcon
+$ ls
+chewbaca.txt  han_solo.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine/millenium_falcon
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt  millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt  millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ mv ben_kenobi.txt obi_wan.txt
+ls
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  millenium_falcon/  obi_wan.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ^C
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ^C
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$
+
+
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cp death_star/storm_trooper.txt tatooine/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd tatooine/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  millenium_falcon/  obi_wan.txt  storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/tatooine
+$
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mv millenium_falcon/ death_star/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd death_star/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  princess_leia.txt  storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ mv princess_leia.txt millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ^C
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$
+
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/millenium_falcon
+$ rm ob_wan.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewbaca.txt  han_solo.txt  luke.txt  princess_leia.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/millenium_falcon
+$ ^C
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/millenium_falcon
+$
+
+
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/millenium_falcon
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mkdir yavin_4
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mv death_star/millenium_falcon yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ mkdir x_wing
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mv princess_leia.txt yavin_4/millenium_falcon/ yavin_4/
+mv: cannot stat 'princess_leia.txt': No such file or directory
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ cd millenium_falcon/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/millenium_falcon
+$ ls
+chewbaca.txt  han_solo.txt  luke.txt  princess_leia.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/millenium_falcon
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mv yavin_4/millenium_falcon/princess_leia.txt yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess_leia.txt  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ mv luke.txt x_wing/
+mv: cannot stat 'luke.txt': No such file or directory
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon/luke.txt x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ s
+bash: s: command not found
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess_leia.txt  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ cd x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/x_wing
+$ ls
+luke.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/x_wing
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess_leia.txt  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd death_star/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ s
+bash: s: command not found
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  storm_trooper.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$  mkdir tie_fighter_1
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ mkdir tie_fighter_2
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ mkdir tie_fighter_3
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt    tie_fighter_1/  tie_fighter_3/
+storm_trooper.txt  tie_fighter_2/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ mv darth_vader.txt tie_fighter_1
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt tie_fighter_2
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt tie_fighter_3
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev
+$ ls
+galaxy-far-far-away/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev
+$ mv galaxy-far-far-away/death_star/ tie_fighter_1 galaxy-far-far-away/
+mv: cannot stat 'tie_fighter_1': No such file or directory
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev
+$ cd galaxy-far-far-away/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd death_star/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cd tie_fighter_1
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/tie_fighter_1
+$ ls
+darth_vader.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star/tie_fighter_1
+$ cd ../../..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev
+$ cd galaxy-far-far-away/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ mv death_star/tie_fighter_1 galaxy_far_far_away
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  galaxy_far_far_away/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ rm -r tie_fighter_2 tie_fighter_3
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$
+
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/death_star
+$ cd ..
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away
+$ cd yavin_4/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  princess_leia.txt  x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4
+$ cd x_wing/
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/x_wing
+$ ls
+luke.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/x_wing
+$ touch the_force.txt
+
+Andre@LAPTOP-HVP52PUV MINGW64 ~/Desktop/Dev/galaxy-far-far-away/yavin_4/x_wing
+$
+
